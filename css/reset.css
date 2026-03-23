@@ -17,7 +17,28 @@ a {
 }
 
 .h3 {
-    position: relative;
-    text-align: center;
-    margin-right: 1132px;
+    
+    margin-left: 295px;
+}
+
+#kakao h3{
+    font-size: 15.5px;
+    margin: 14px 30px;
+}
+
+.menu p{
+    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+}
+
+.middle p{
+    font-size: 13px;
+    color: #999;
+}
+
+.last p{
+    font-size: 13px;
+    color: #999;
+    line-height: 4;
 }
