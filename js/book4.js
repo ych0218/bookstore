@@ -1,7 +1,7 @@
 async function bookData() {
     const params = new URLSearchParams({
         target: "title",
-        query: "게임",
+        query: "한강",
         size: 6
     });
     const url = `https://dapi.kakao.com/v3/search/book?${params}`;
@@ -33,8 +33,8 @@ async function bookData() {
 
             // 요소 생성 및 추가
             box.innerHTML = `<img src="${data.documents[i].thumbnail}">
-                    <h3>${data.documents[i].title}</h3>
-                    <h6>${data.documents[i].authors}</h6>
+                    <p>${data.documents[i].title}</p>
+                    <span>${data.documents[i].authors}</span>
                     `
         });
 

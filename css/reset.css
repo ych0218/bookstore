@@ -17,8 +17,11 @@ a {
 }
 
 .h3 {
+    width: 934px;
+    height: 22px;
+    font-size: 14px;
+    margin: 0 auto;
     
-    margin-left: 295px;
 }
 
 #kakao h3{
