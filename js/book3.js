@@ -1,7 +1,7 @@
 async function bookData() {
     const params = new URLSearchParams({
         target: "title",
-        query: "파이썬",
+        query: "세계",
         size: 10
     });
     const url = `https://dapi.kakao.com/v3/search/book?${params}`;
