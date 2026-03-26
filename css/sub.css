@@ -1,10 +1,12 @@
 @charset "utf-8";
 
 .container{
-    width: 1200px;
+    width: 1200px; 
     height: 100%;
     margin: 0 auto;
-    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header{
@@ -25,7 +27,6 @@ header{
     align-items: center;
     background-color: white;
     position: fixed;
-    margin-left: 160px;
     margin-top: -10px;
     height: 100px;
     z-index: 999;
@@ -113,7 +114,7 @@ button{
     margin: 14px 30px;
 }
 
-section{
+.main{
     width: 956px;
     height: 1360px;
     background-color: aquamarine;
@@ -122,13 +123,45 @@ section{
 
 }
 
-section .box{
+.main .box1{
     width: 320px;
     height: 1330px;
-    background-color: violet;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section .box img{
+.main .box1 img{
     width: 160px;
     height: 240px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.main .box1 h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.main .box1 p{
+    font-size: 11.5px;
+    color: #505050;
+}
+
+.main .box1 .smallBox{
+    width: 300px;
+    height: 20px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .box1 .bookEyeStar{
+    width: 16px;
+    height: 16px;
+    margin-top: auto;
 }
