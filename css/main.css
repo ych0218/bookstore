@@ -124,11 +124,10 @@ button{
 }
 
 #header_main .container{
-    width: 934px;
+    width: 935px;
     height: 56px;
     margin: 0 auto;
     position: fixed;
-    margin-left: 11px;
     height: 70px;
     z-index: 999;
     display:flex; 
@@ -208,9 +207,8 @@ button{
     width: 32px;
     height: 32px;
     border-radius: 18.5px;
-
     margin-left: 11px;
-    
+    margin-right: auto;
 }
 
 #right1 img{
@@ -221,7 +219,7 @@ button{
 #left{
     width: 200px;
     height: 20px;
-    margin-left: 3px;
+    margin-right: 650px;
     font-size: 14px;
 }
 
