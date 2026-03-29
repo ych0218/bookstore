@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#slider .josun h3{
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 155px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#slider .josun p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: 430px;
+    margin-left: 152px;
+}
+
+#slider .dan h3{
+    position: absolute;
+    font-size: 21px;
+    margin-top: 370px;
+    margin-left: 153px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#slider .dan p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: 405px;
+    margin-left: 165px;
+}
+
+#slider .dan span{
+    position: absolute;
+    color: #bbb;
+    margin-top: 430px;
+    margin-left: -23px;
+    font-size: 10px
+}
+
+#slider .today h3{
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 340px;
+    margin-left: 120px;
+}
+
+#slider .today p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: 405px;
+    margin-left: 140px;
+}
+
+#slider .today span{
+    position: absolute;
+    color: #bbb;
+    margin-top: 430px;
+    margin-left: -20px;
+    font-size: 10px
+}
+
+#slider .sojang h3{
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 360px;
+    margin-left: 145px;
+}
+
+#slider .sojang p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-left: 145.5px;
+    margin-top: 425px;
+}
+
+.h3 {
+    width: 934px;
+    height: 22px;
+    font-size: 14px;
+    margin: 0 auto;
+    
+}
+
+#kakao h3{
+    font-size: 15.5px;
+    margin: 14px 30px;
+}
+
+.menu p{
+    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+}
+
+.middle p{
+    font-size: 13px;
+    color: #999;
+}
+
+.last p{
+    font-size: 13px;
+    color: #999;
+    line-height: 4;
+}
