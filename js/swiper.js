@@ -39,4 +39,5 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
     slidesPerView: 9,
     freeMode: true,
+    slidesOffsetAfter: 27, 
 });

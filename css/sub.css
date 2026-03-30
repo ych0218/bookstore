@@ -116,26 +116,25 @@ button{
 
 .main_container{
     width: 956px;
-    height: 1360px;
+    height: 1260px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    margin-top: -30px;
+    margin-top: -30px
 }
 
 .main{
     width: 320px;
-    height: 1260px;
-    background-color: aquamarine;
+    height: 1230px;
     margin: 0 auto;
-    margin-top: -70px;
+    margin-top: -100px;
     display: flex;
     
 }
 
 .main .box1{
     width: 320px;
-    height: 1260px;
+    height: 1230px;
     background-color: #f7f7f7;
     border-radius: 10px;
     display: flex;
@@ -235,6 +234,10 @@ button{
     margin-top: 5px;
 }
 
+.main .box1 h4{
+    font-size: 15px;
+}
+
 .main .box1 .heart{
     width: 24px;
     height: 24px;
@@ -256,18 +259,20 @@ button{
 }
 
 .main2{
-    width: 636px;
-    height: 1260px;
-    background-color: tomato;
-    margin-bottom: 70px;
+    width: 641px;
+    height: 1230px;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
 }
 
 .main2 .box2{
     width: 636px;
-    height: 462px;
+    height: 464px;
     border-radius: 10px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-left: 5px;
 }
 
 .main2 .box2 .nav{
@@ -329,33 +334,183 @@ button{
 }        
 
 .main2 .box2 h4{
-    margin: 15px 0 0 20px;
+    margin: 10px 0 0 20px;
 }
 
 .main2 .box2 .txt p{
-    margin: 15px 0 0 20px;
+    margin: 10px 0 0 20px;
     font-size: 12.5px;
+    
 }
 
-
-.main2 .box3{
+.main2 #slider{
     width: 636px;
-    height: 274px;
-    background-color: violet;
+    height: 284px;
+    background-color: #f7f7f7;
+    margin: 5px 0 0 5px;
+    border-radius: 10px;
 }
 
-.main2 .box4{
-    width: 636px;
-    height: 274px;
-    background-color: sandybrown;
+.main2 #slider .title{
+    width: 596px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
 }
+
+.main2 #slider .title img{
+    margin: 2px 0 0 4px;
+}
+
+
+.main2 #slider .swiper-slide img{
+    width: 97px;
+    height: 140px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.main2 #slider .swiper-slide p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.main2 #slider .swiper-slide span{
+    font-size: 10px;
+    color: #656565;
+    margin-left: 20px;
+}
+
+#slider .swiper-button-next{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    top: 80px;
+}
+
+#slider .swiper-button-prev{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    top: 80px;
+
+}
+
+#slider .swiper-navigation-icon {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+
+
+.main2 #slider2{
+    width: 636px;
+    height: 284px;
+    background-color: #f7f7f7;
+    margin: 5px 0 0 5px;
+    border-radius: 10px;
+}
+
+.main2 #slider2 .title2{
+    width: 596px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.main2 #slider2 .swiper-slide img{
+    width: 97px;
+    height: 140px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.main2 #slider2 .swiper-slide p{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.main2 #slider2 .swiper-slide span{
+    font-size: 10px;
+    color: #656565;
+    margin-left: 20px;
+}
+
+#slider2 .swiper-button-next{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    top: 80px;
+}
+
+#slider2 .swiper-button-prev{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    color: white;
+    background-color: black;
+    top: 80px;
+
+}
+
+#slider2 .swiper-navigation-icon {
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+}
+
 
 .main2 .box5{
     width: 636px;
     height: 189px;
-    background-color: lawngreen
+    margin: 5px 0 0 5px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
 }
 
+.main2 .box5 .top-header{
+    width: 596px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.main2 .box5 .middle-header{
+    position: absolute;
+    font-size: 12px;
+    color: #656565;
+    margin-left: 20px;
+}
+.main2 .box5 .middle-header p{
+    margin-top: 5px;
+}
+
+.main2 .box5 .last-header{
+    margin: -110px 0 0 100px;
+    color: black;
+}
+
+.main2 .box5 .last-header p img{
+    position: relative; 
+    top: 3px;
+}
 
 .ad{
     width: 934px;
@@ -364,6 +519,7 @@ button{
     background-color: #F3F3F3;
     display: flex;
     border-radius: 15px;
+    margin-top: -50px;
 }
 
 .ad .kp{
