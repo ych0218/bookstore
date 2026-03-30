@@ -101,6 +101,58 @@ a {
     margin-top: 425px;
 }
 
+#slider .bye h3{
+    position: absolute;
+    font-size: 21px;
+    margin-top: 350px;
+    margin-left: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#slider .bye p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: 405px;
+    margin-left: 160px;
+}
+
+#slider .bye span{
+    position: absolute;
+    color: #bbb;
+    margin-top: 430px;
+    margin-left: -20px;
+    font-size: 10px
+}
+
+#slider .level h3{
+    position: absolute;
+    font-size: 21px;
+    margin-top: 370px;
+    margin-left: 153px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#slider .level p{
+    position: absolute;
+    font-size: 12px;
+    color: white;
+    margin-top: 405px;
+    margin-left: 155px;
+}
+
+#slider .level span{
+    position: absolute;
+    color: #bbb;
+    margin-top: 430px;
+    margin-left: -23px;
+    font-size: 10px
+}
+
 .h3 {
     width: 934px;
     height: 22px;

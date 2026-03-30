@@ -268,11 +268,12 @@ button{
 
 .main2 .box2{
     width: 636px;
-    height: 464px;
+    height: 345px;
     border-radius: 10px;
     background-color: #f7f7f7;
     border-radius: 10px;
     margin-left: 5px;
+    overflow: hidden;
 }
 
 .main2 .box2 .nav{
@@ -334,13 +335,30 @@ button{
 }        
 
 .main2 .box2 h4{
-    margin: 10px 0 0 20px;
+    margin: 15px 0 0 20px;
+}
+
+.main2 .box2 .txt{
+    height: 350px;
 }
 
 .main2 .box2 .txt p{
-    margin: 10px 0 0 20px;
+    margin: 15px 0 0 20px;
     font-size: 12.5px;
-    
+}
+
+.box2 button img{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 620px;
+} 
+
+.main2 .box2 .go{
+    position: relative;
+    margin: -130px 0 0 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
 }
 
 .main2 #slider{
@@ -503,7 +521,7 @@ button{
 }
 
 .main2 .box5 .last-header{
-    margin: -110px 0 0 100px;
+    margin: -110px 0 0 100px; 
     color: black;
 }
 
