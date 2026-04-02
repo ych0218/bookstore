@@ -5,7 +5,7 @@ var swiper = new Swiper(".mySwiper", {
   },
     slidesPerView: 6,
     freeMode: true,
-    slidesOffsetAfter: -10,
+    slidesOffsetAfter: 30,
 });
 
 
@@ -16,5 +16,5 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
     slidesPerView: 6,
     freeMode: true,
-    slidesOffsetAfter: -10,
+    slidesOffsetAfter: 30,
 });

@@ -1,7 +1,7 @@
 async function bookData() {
     const params = new URLSearchParams({
         target: "title",
-        query: "조선왕조실록 3",
+        query: "조선왕조실록 3 세종 문종",
         size: 1
     });
     const url = `https://dapi.kakao.com/v3/search/book?${params}`;
